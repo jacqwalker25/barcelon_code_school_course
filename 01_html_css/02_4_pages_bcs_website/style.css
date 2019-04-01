@@ -45,6 +45,7 @@ nav li {
 .main-section {
 	width: 80%;
 	margin: 5% auto;
+	font-family: 'Roboto';
 }
 
 .about-us {
@@ -124,8 +125,9 @@ footer h2 {
 
 /*Course page*/
 .course-page {
-	width: 85%;
+	width: 80%;
 	margin: 5% auto;
+	font-family: 'Roboto';
 }
 
 .first-section {
@@ -160,6 +162,8 @@ footer h2 {
 	grid-template-columns: 1fr 3fr 2fr;
 	border: 2px solid black;
 	padding: 20px 10px;
+	margin-bottom: 20px;
+	box-shadow: -3px 3px;
 }
 
 .course-div h4, .course-div h2 {
@@ -172,8 +176,49 @@ footer h2 {
 	margin-bottom: 50px;
 }
 
-.sign-up-box {
-	
+.sign-up-box p {
+	margin-bottom: 20px;
 }
 
+.sign-up-box select {
+	display: block;
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+.signup-button {
+	width: 100%;
+	text-align: center;
+	border: 1px solid black;
+	display: block;
+	padding: 10px;
+	color: black;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+
+.terms {
+	font-size: 12px;
+}
+
+.list-group {
+	margin: 10px 0 10px 25px;
+}
+
+.list-items {
+	list-style: square;	
+}
+
+.inputBox {
+	display: block;
+	padding: 10px;
+	width: 100%;
+	margin: 15px 0;
+}
+
+.course-div p {
+	letter-spacing: 1px;
+	font-size: 16px;
+}
 /*End of course page*/
